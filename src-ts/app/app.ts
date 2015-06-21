@@ -1,7 +1,3 @@
-/// <references path="../node_modules/angular2/angular2.d.ts" />
-/// <references path="../node_modules/angular2/http.d.ts" />
-/// <references path="../node_modules/angular2/router.d.ts" />
-
 import { Component, View, bootstrap } from 'angular2/angular2';
 import { RouteConfig, RouterOutlet, Router, routerInjectables } from 'angular2/router';
 import { BrowserLocation } from 'angular2/src/router/browser_location';

@@ -9,7 +9,7 @@ interface IModel {
 @Component({
   selector: 'filter-textbox',
   events: ['changed'],
-  properties: {labelText: 'labelText'},
+  properties: ['labelText'],
   lifecycle: [onChange]
 })
 @View({

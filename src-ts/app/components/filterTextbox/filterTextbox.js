@@ -30,7 +30,7 @@ var FilterTextbox = (function () {
         angular2_1.Component({
             selector: 'filter-textbox',
             events: ['changed'],
-            properties: { labelText: 'labelText' },
+            properties: ['labelText'],
             lifecycle: [angular2_1.onChange]
         }),
         angular2_1.View({
